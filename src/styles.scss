@@ -1,1 +1,68 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.big-table {
+  width: 95%;
+  max-width: 60rem;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.clickable-title {
+  cursor: pointer;
+}
+
+.clickable-title:hover {
+  text-decoration: underline;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+.center {
+  justify-content: center;
+  text-align: center;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+.m-05 {
+  margin: 0.5rem;
+}
+
+.fat {
+  font-weight: bold;
+}
+
+.flex {
+  display: flex;
+}
+
+.stand-out {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset !important;
+}
+
+.mat-form-field-infix {
+  width: 200px !important;
+}
+
+@media screen and (max-width: 600px) {
+  .hide-mobile {
+    visibility: hidden;
+    width: 0rem;
+    height: 0rem;
+  }
+}
